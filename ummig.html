@@ -11,11 +11,11 @@
       <nav>
         <a href="">Heim </a>
         <a href="">Um síðuna </a>
-        <a href="">Hafa samband </a>
-        <a href="">Köttur</a>
+        <a href="mailto:cerestungl@gmail.com">Hafa samband </a>
+        <a href="https://www.google.com/search?q=k%C3%B6ttur">Köttur</a>
       </nav>
     </header>
-    <main>
+    <main style="background-color: violet;">
       <section>
         <h2>Um mig</h2>
         <img src="eg.jpg" height="200" alt="selfie">
@@ -29,9 +29,11 @@
       </section>
       <br />
       <img src="kisa2024.png" width="200" alt="anime cat"/><br />
+      <hr>
+      <section style="background-color: aquamarine;">
       <h2>Planið næstu viku</h2>
       <p>Hvaða tölvuleikir ég spila, hvað ég borða, og hvað ég geri.</p>
-      <table>
+      <table >
         <th>Mánudagur</th>
         <th>Þriðjudagur</th>
         <th>Miðvikudagur</th>
@@ -66,7 +68,27 @@
           <td>Tala við drauga</td>
           <td>Horfa á Netflix</td>
         </tr>
-      </table>
+      </table></section>
+      <hr>
+      <h2>Ekki hika við að senda mér brandara!</h2>
+      <form action="" method="get">
+        <label for="name">Nafn</label><br>
+        <input name="name" type="text" id="name" required><br>
+
+        <label for="email">Tölvupóstur</label><br>
+        <input name="email" type="email" id="email" required><br>
+
+        <label for="comment">Brandari hér:</label><br>
+        <input name="comment" type="text" id="comment" required><br>
+        <label for="radio">Er þetta góður brandari?</label> <br>
+        <label for="radio">Já</label>
+        <input name="yes" type="radio" id="radio" value="yes" required>
+         <label for="radio">Nei</label>
+        <input name="no" type="radio" id="radio" value="no" required><br>
+        <br>
+        <button type="submit">Senda inn brandara</button>
+      </form>
+      <br>
     </main>
     <footer>
       &copy 2025 Inga G. Vald. <br />
