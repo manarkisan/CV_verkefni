@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vá hvað þetta er flott vefsíða!!!</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header>
@@ -15,13 +16,18 @@
         <a href="https://www.google.com/search?q=k%C3%B6ttur">Köttur</a>
       </nav>
     </header>
-    <main style="background-color: violet">
-      <section>
+    <main>
+      <section class="ummig">
         <h2>Um mig</h2>
-        <img src="eg.jpg" height="200" alt="selfie" />
+        <div class="selfie"><img src="eg.jpg" height="200" alt="selfie" /></div>
         <p>
           Hæ<br />
-          ég heiti Inga og mig langar að læra á forritun. <br>Áhugamál mín eru að teikna, spila tölvuleiki, horfa á netflix og youtube í sjónvarpinu, og mála minis. <br> Planið er að komast í góða vinnu með forritun og list, t.d. í tölvuleikjaiðnaðinum, og/eða búa til lítinn indie leik sjálf. <br />Og svo langar mig líka að búa til myndasögur.
+          ég heiti Inga og mig langar að læra á forritun. <br />Áhugamál mín eru
+          að teikna, spila tölvuleiki, horfa á netflix og youtube í sjónvarpinu,
+          og mála minis. <br />
+          Planið er að komast í góða vinnu með forritun og list, t.d. í
+          tölvuleikjaiðnaðinum, og/eða búa til lítinn indie leik sjálf. <br />Og
+          svo langar mig líka að búa til myndasögur.
         </p>
         <ul>
           Uppáhaldið mitt er:
@@ -33,10 +39,11 @@
         <img src="kisa2024.png" width="200" alt="anime cat" /><br />
       </section>
       <hr />
-      <section style="background-color: aquamarine">
+      <section>
         <h2>Planið næstu viku</h2>
         <p>Hvaða tölvuleikir ég spila, hvað ég borða, og hvað ég geri.</p>
         <table>
+          <tr>
           <th>Mánudagur</th>
           <th>Þriðjudagur</th>
           <th>Miðvikudagur</th>
@@ -44,6 +51,7 @@
           <th>Föstudagur</th>
           <th>Laugardagur</th>
           <th>Sunnudagur</th>
+          </tr>
           <tr>
             <td>Power Wash Simulator</td>
             <td>House Flipper</td>
@@ -73,8 +81,9 @@
           </tr>
         </table>
       </section>
-      <hr />
-      <h2>Ekki hika við að senda mér brandara!</h2>
+      <hr>
+    <section>
+      <h2>Ekki hika við að senda mér brandara!</h2><br>
       <form action="" method="get">
         <label for="name">Nafn</label><br />
         <input name="name" type="text" id="name" required /><br />
@@ -93,6 +102,7 @@
         <button type="submit">Senda inn brandara</button>
       </form>
       <br />
+</section>
     </main>
     <footer>
       &copy 2025 Inga G. Vald. <br />

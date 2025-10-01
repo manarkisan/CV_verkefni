@@ -1,0 +1,58 @@
+body {
+    margin: 0px
+}
+
+header {
+    display: flex;
+    background-color: violet;
+    padding: 0%;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    background-color: plum;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+    display: flex;
+    background-color: mediumvioletred;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section {
+    background-color: lavender;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.selfie {
+    display: flex;
+}
+
+.selfie img {
+    border-radius: 50%;
+}
+
+.ummig {
+    background-color: lavender;
+}
+
+table {
+    background-color: lavenderblush;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
