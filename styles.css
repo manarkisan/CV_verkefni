@@ -1,11 +1,12 @@
 body {
-    margin: 0px
+    margin: 0px;
+    background-color: rgb(54, 4, 100);
 }
 
 header {
     display: flex;
     background-color: violet;
-    padding: 0%;
+    padding: 10px;
     align-items: center;
 }
 
@@ -18,13 +19,15 @@ main {
 footer {
     display: flex;
     background-color: mediumvioletred;
+    margin-bottom: 0px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
 }
 
 nav {
     display: flex;
     gap: 10px;
     margin-left: auto;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
 }
 
 :any-link {
@@ -33,6 +36,9 @@ nav {
 
 section {
     background-color: lavender;
+    border-radius: 100px;
+    margin: 50px;
+
 }
 
 h1 {
@@ -40,7 +46,11 @@ h1 {
 }
 
 h2 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(61, 84, 216);
+     font-family: "Silkscreen", sans-serif;
+    font-size: 30px;
+      font-style: normal;
+
 }
 
 .selfie {
@@ -49,14 +59,39 @@ h2 {
 
 .selfie img {
     border-radius: 50%;
+    border: 10px rgb(98, 11, 185) solid;
+    box-shadow: 8px 15px 25px rgb(30, 4, 122) ;
 }
 
 .ummig {
-    background-color: lavender;
+    padding: 30px;
 }
 
 table {
     background-color: lavenderblush;
     padding: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px red dotted;
+    border-radius: 55px;
+    
+}
+
+.plan {
+ padding:20px;
+}
+
+.brandari {
+    padding: 20px;
+}
+
+strong {
+    font-size: larger;
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#hornmynd {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
 }
