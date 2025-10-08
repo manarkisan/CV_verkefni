@@ -1,97 +1,122 @@
 body {
-    margin: 0px;
-    background-color: rgb(54, 4, 100);
+  margin: 0px;
+  background-color: rgb(54, 4, 100);
 }
 
 header {
-    display: flex;
-    background-color: violet;
-    padding: 10px;
-    align-items: center;
+  display: flex;
+  background-color: violet;
+  padding: 10px;
+  align-items: center;
 }
 
 main {
-    display: flex;
-    background-color: plum;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+
+  background-color: plum;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 footer {
-    display: flex;
-    background-color: mediumvioletred;
-    margin-bottom: 0px;
-    font-family: "Edu AU VIC WA NT Hand", cursive;
+  display: flex;
+  background-color: mediumvioletred;
+  margin-bottom: 0px;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
 }
 
 nav {
-    display: flex;
-    gap: 10px;
-    margin-left: auto;
-    font-family: "Edu AU VIC WA NT Hand", cursive;
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
 }
 
 :any-link {
-    color: aquamarine;
+  color: aquamarine;
 }
 
 section {
-    background-color: lavender;
-    border-radius: 100px;
-    margin: 50px;
-
+  background-color: lavender;
+  border-radius: 100px;
+  margin: 50px;
+  display: flex;
+  flex-grow: 1;
+  margin: 10px;
 }
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h2 {
-    color:rgb(61, 84, 216);
-     font-family: "Silkscreen", sans-serif;
-    font-size: 30px;
-      font-style: normal;
-
+  color: rgb(61, 84, 216);
+  font-family: "Silkscreen", sans-serif;
+  font-size: 30px;
+  font-style: normal;
 }
 
 .selfie {
-    display: flex;
+  display: flex;
 }
 
 .selfie img {
-    border-radius: 50%;
-    border: 10px rgb(98, 11, 185) solid;
-    box-shadow: 8px 15px 25px rgb(30, 4, 122) ;
+  border-radius: 50%;
+  border: 10px rgb(98, 11, 185) solid;
+  box-shadow: 8px 15px 25px rgb(30, 4, 122);
 }
 
 .ummig {
-    padding: 30px;
-}
-
-table {
-    background-color: lavenderblush;
-    padding: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: 2px red dotted;
-    border-radius: 55px;
-    
+  padding: 30px;
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  align-self: center;
 }
 
 .plan {
- padding:20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+table {
+  background-color: lavenderblush;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border: 2px red dotted;
+  border-radius: 55px;
 }
 
 .brandari {
-    padding: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  padding: 30px;
 }
 
 strong {
-    font-size: larger;
-    color: blueviolet;
-    font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  color: blueviolet;
+  font-family: "Courier New", Courier, monospace;
 }
 
 #hornmynd {
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.lower {
+  display: flex;
+  flex-direction: row;
+  align-content: space-evenly;
+}
+
+#kisa {
+  display: flex;
+  align-self: flex-end;
+  width: 200px;
 }
